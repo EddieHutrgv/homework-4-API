@@ -1,0 +1,18 @@
+$kind: http-request
+name: https://accounts.spotify.com/api/token
+description: ""
+url: https://accounts.spotify.com/api/token
+method: POST
+headers:
+  Content-Type: application/x-www-form-urlencoded
+body:
+  type: urlencoded
+  content:
+    grant_type: client_credentials
+    client_id: 9e0276e851c043d98ad8951a5d6e0325
+    client_secret: 5cf3133de80f4dd08a0523ecf6a97e19
+auth:
+  type: bearer
+  credentials:
+    token: BQDIen_fe6x0fwvoWxmmEeikPy83XuQoT--DMWHjt1EW-U_2Glg5Dc27pG_4YEoLU9WU-dxADg12KEX-U713TBcCPBkAYtwUD2f7bAd3Fpc8oksc6JL0P765KD0LlPdXhPU1U3aJuBku
+order: 1791436310777
