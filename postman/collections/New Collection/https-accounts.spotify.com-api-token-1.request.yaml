@@ -1,7 +1,7 @@
 $kind: http-request
 name: https://accounts.spotify.com/api/token
 description: ""
-url: https://api.spotify.com/v1/artists/2wAJTrFhCnQyNSD3oUgTZO
+url: https://api.spotify.com/v1/artist/6l3HvQ5sa6mXTsMTB19rO5/discography/all
 method: GET
 headers:
   Content-Type: application/x-www-form-urlencoded
